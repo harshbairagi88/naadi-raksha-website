@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
         <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold mb-6">
-              Connect with <br />Naadi Raksha
+              Connect with <br />SpandaVidya
             </h2>
             <p className="text-lg text-brand-muted leading-relaxed mb-8">
               We are inviting researchers, medical clinicians, Ayurvedic experts, and mission-aligned investors to join our research hub.
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="font-bold">Official Email</p>
-                <p className="text-brand-muted text-sm font-medium">contact@naadiraksha.ai</p>
+                <p className="text-brand-muted text-sm font-medium">Dilpar99@gmail.com</p>
               </div>
             </div>
             <div className="flex gap-4 p-4 rounded-2xl bg-brand-bg hover:bg-brand-accent/5 transition-all">

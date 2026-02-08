@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="font-serif text-6xl md:text-8xl font-bold text-brand-text leading-[1.05] mb-8 animate-fade-in-up stagger-1">
-          Digitizing <span className="text-brand-accent drop-shadow-sm">Naadi Raksha</span> <br />
+          Digitizing <span className="text-brand-accent drop-shadow-sm">SpandaVidya</span> <br />
           <span className="italic font-medium text-brand-text/60">with Signal Intelligence</span>
         </h1>
         

@@ -18,7 +18,7 @@ const Mission: React.FC = () => {
               <span className="w-2 h-2 bg-brand-accent rounded-full" /> Our Mission
             </h3>
             <p className="text-brand-muted text-lg leading-relaxed">
-              To preserve, standardize, and scientifically strengthen Naadi Raksha 
+              To preserve, standardize, and scientifically strengthen SpandaVidya 
               through deep instrumentation and data-driven insights.
             </p>
           </div>

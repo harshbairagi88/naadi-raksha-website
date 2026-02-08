@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center md:items-start space-y-4">
             <div className="font-serif text-3xl font-bold text-brand-text tracking-tight flex items-center gap-2">
               <div className="w-9 h-9 bg-brand-accent rounded-xl flex items-center justify-center text-white text-[10px] font-sans">NR</div>
-              Naadi Raksha
+              SpandaVidya
             </div>
             <p className="text-brand-muted text-sm text-center md:text-left leading-relaxed max-w-xs">
               Pioneering the future of integrative medicine through digital signal acquisition and Ayurvedic intelligence.
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
         {/* Legal Bottom Bar */}
         <div className="pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-brand-muted text-[11px] font-medium tracking-wide uppercase">
-            &copy; {new Date().getFullYear()} Naadi Raksha Research Initiative • All Rights Reserved
+            &copy; {new Date().getFullYear()} SpandaVidya Research Initiative • All Rights Reserved
           </div>
           <div className="flex gap-8">
             <a href="#" className="text-brand-muted hover:text-brand-accent transition-colors text-[10px] font-bold uppercase tracking-[0.2em]">Privacy Policy</a>

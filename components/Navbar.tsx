@@ -27,8 +27,8 @@ const Navbar: React.FC = () => {
       isScrolled ? 'bg-white/90 backdrop-blur-md border-b border-black/5 shadow-sm py-3' : 'bg-transparent'
     }`}>
       <div className="font-serif text-xl md:text-2xl font-bold text-brand-text tracking-tight flex items-center gap-2">
-        <div className="w-8 h-8 bg-brand-accent rounded-lg flex items-center justify-center text-white text-xs">NR</div>
-        Naadi Raksha
+        {/* <div className="w-8 h-8 bg-brand-accent rounded-lg flex items-center justify-center text-white text-xs"><img src="./public/logo.jpg" alt="" /></div> */}
+        <img src="./public/logo2.png" alt="Logo" className="w-64 h-40 object-contain " />
       </div>
 
       {/* Desktop Links */}

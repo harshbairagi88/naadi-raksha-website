@@ -17,7 +17,7 @@ const Challenge: React.FC = () => {
               Classical Naadi diagnostics offers profound systemic insights into a patient's functional health, yet its clinical wider utility has been limited by the inherent subjectivity of human touch.
             </p>
             <p>
-              Modern healthcare excels in structural imaging but often misses the real-time, functional context provided by the arterial pulse. <strong>Naadi Raksha</strong> bridges this gap by introducing objective signal data into traditional diagnostics.
+              Modern healthcare excels in structural imaging but often misses the real-time, functional context provided by the arterial pulse. <strong>SpandaVidya</strong> bridges this gap by introducing objective signal data into traditional diagnostics.
             </p>
             <blockquote className="pt-6 border-l-4 border-brand-accent/40 pl-8 italic text-brand-text/80 text-xl font-serif">
               "Our mission is to empower Ayurvedic practitioners with digital vision while providing clinicians with holistic functional data."
@@ -33,7 +33,7 @@ const Challenge: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-brand-text/40 to-transparent" />
           <div className="absolute bottom-10 left-10 text-white z-10">
-            <div className="text-xs font-bold uppercase tracking-tighter opacity-80 mb-1">Naadi Raksha Analytics</div>
+            <div className="text-xs font-bold uppercase tracking-tighter opacity-80 mb-1">SpandaVidya Analytics</div>
             <div className="text-2xl font-serif italic">Precision Mapping</div>
           </div>
         </div>
