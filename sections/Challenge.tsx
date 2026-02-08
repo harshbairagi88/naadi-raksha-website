@@ -26,7 +26,7 @@ const Challenge: React.FC = () => {
         </article>
         <div className="relative rounded-[3rem] overflow-hidden aspect-[4/5] md:aspect-square shadow-2xl reveal stagger-1">
           <img 
-            src="./public/im2w.png" 
+            src="im2w.png" 
             alt="Scientific visualization of radial pulse signal intelligence used by Naadi Raksha" 
             loading="lazy"
             className="object-cover w-full h-full hover:scale-110 transition-transform duration-[1.5s] ease-out"
