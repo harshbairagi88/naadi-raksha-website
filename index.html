@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Naadi Raksha | AI-Enabled Ayurvedic Pulse Diagnostics</title>
+  <meta name="title" content="Naadi Raksha | AI-Enabled Ayurvedic Pulse Diagnostics">
+  <meta name="description" content="Naadi Raksha digitizes traditional Ayurvedic pulse diagnostics using advanced signal intelligence and AI. Objective, reproducible, and clinical-grade health assessments.">
+  <meta name="keywords" content="Naadi Raksha, Nadi Pariksha AI, Ayurvedic Pulse Diagnosis, Signal Intelligence, Medical AI, Health Tech India, Digital Ayurveda">
+  <meta name="author" content="Naadi Raksha Research Initiative">
+  <link rel="canonical" href="https://naadiraksha.ai/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://naadiraksha.ai/">
+  <meta property="og:title" content="Naadi Raksha | Digitizing Ayurvedic Wisdom">
+  <meta property="og:description" content="A research-driven platform interpreting Ayurvedic pulse signals using sensors and AI for objective functional assessment.">
+  <meta property="og:image" content="https://naadiraksha.ai/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://naadiraksha.ai/">
+  <meta property="twitter:title" content="Naadi Raksha | AI-Enabled Pulse Diagnostics">
+  <meta property="twitter:description" content="Digitizing traditional Ayurvedic diagnostics with high-fidelity sensing and signal intelligence.">
+  <meta property="twitter:image" content="https://naadiraksha.ai/og-image.jpg">
+
+  <!-- Fonts & Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              accent: '#b58b2a',
+              text: '#1c1c1c',
+              muted: '#555',
+              bg: '#f9fafb',
+            }
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'float': 'float 6s ease-in-out infinite',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    @keyframes pulse-stroke {
+      0% { stroke-dashoffset: 1000; opacity: 0; }
+      20% { opacity: 0.3; }
+      50% { opacity: 0.5; }
+      80% { opacity: 0.3; }
+      100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    .animate-pulse-path {
+      stroke-dasharray: 1000;
+      animation: pulse-stroke 6s linear infinite;
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .stagger-1 { transition-delay: 0.1s; }
+    .stagger-2 { transition-delay: 0.2s; }
+    .stagger-3 { transition-delay: 0.3s; }
+    .stagger-4 { transition-delay: 0.4s; }
+
+    /* Skip Link for Accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #b58b2a;
+      color: white;
+      padding: 8px;
+      z-index: 100;
+      transition: top 0.3s;
+    }
+    .skip-link:focus { top: 0; }
+  </style>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Naadi Raksha",
+    "url": "https://naadiraksha.ai",
+    "logo": "https://naadiraksha.ai/logo.png",
+    "description": "Digitizing Ayurvedic pulse diagnostics using AI and signal intelligence.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contact@naadiraksha.ai",
+      "contactType": "customer support"
+    }
+  }
+  </script>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-brand-bg text-brand-text font-sans antialiased overflow-x-hidden">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="root"></div>
+  
+  <script>
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, observerOptions);
+
+    const observeElements = () => {
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    };
+
+    window.addEventListener('DOMContentLoaded', observeElements);
+    let pollCount = 0;
+    const interval = setInterval(() => {
+      observeElements();
+      if (++pollCount > 10) clearInterval(interval);
+    }, 500);
+  </script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
