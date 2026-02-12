@@ -24,14 +24,14 @@ const Challenge: React.FC = () => {
             </blockquote>
           </div>
         </article>
-        <div className="relative rounded-[3rem] overflow-hidden aspect-[4/5] md:aspect-square shadow-2xl reveal stagger-1">
+        <div className="relative rounded-[3rem] overflow-hidden aspect-[4/5] mr-8  md:aspect-square shadow-2xl reveal stagger-1">
           <img 
             src="im2w.png" 
             alt="Scientific visualization of radial pulse signal intelligence used by Naadi Raksha" 
             loading="lazy"
             className="object-cover w-full h-full hover:scale-110 transition-transform duration-[1.5s] ease-out"
           />
-          <div className="absolute inset-0 bg-gradient-to-tr from-brand-text/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-tr from-brand-text/40 to-transparent " />
           <div className="absolute bottom-10 left-10 text-white z-10">
             <div className="text-xs font-bold uppercase tracking-tighter opacity-80 mb-1">SpandaVidya Analytics</div>
             <div className="text-2xl font-serif italic">Precision Mapping</div>
