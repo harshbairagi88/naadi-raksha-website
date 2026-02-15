@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
           </a>
         ))}
         <a 
-          href="https://naadi-raksha.vercel.app" 
+          href="https://naadi-raksha-liart.vercel.app/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="ml-4 px-6 py-2.5 bg-brand-accent text-white text-sm font-bold rounded-full shadow-lg shadow-brand-accent/30 hover:bg-brand-accent/90 transform hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2 group"
